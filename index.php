@@ -44,8 +44,7 @@
     $conn->close();
 
 
-    //** Бонус: Попълване на таблицата през скрипта вместо на ръка от phpMyAdmin.
-    //id-то в PhPMyadmin e auto-increment, затова не е последователно (направих няколко опита дали няма да гръмне първо ) :)
+     //** input objects into table using script:
 
     	include_once 'insert_data.php'
 
